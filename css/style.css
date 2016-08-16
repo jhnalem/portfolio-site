@@ -1,0 +1,38 @@
+
+.heading {
+    margin-top: 40px;
+}
+
+hr {
+    border: none;
+    height: 6px;
+    padding-left: 5px;
+    padding-right: 5px;
+    /* Set the hr color */
+    color: gb(190, 198, 206); /* old IE */
+    background-color: rgb(190, 198, 206); /* Modern Browsers */
+}
+
+.author {
+    font-weight: 200;
+    font-size: 45px;
+}
+
+.profession {
+    font-size: 30px;
+}
+
+
+/* media query for small devices*/
+
+@media only screen and (max-width: 998px) {
+   .logo {
+        width: 100%;
+        text-align: center;
+   }
+   .center {
+        width: 100%;
+        text-align: center;
+   }
+
+}
